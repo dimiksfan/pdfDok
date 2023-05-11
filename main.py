@@ -46,7 +46,6 @@ def get_first_href(oKey, mKey, cKey, html, pos):
     return res
 
 
-# ua = { "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" }
 
 url = "https://pcoding.ru/darkNet.php"
 html = get_html(url)
@@ -54,14 +53,3 @@ openKey = '<a class="links" href="'
 midKey = '" target=_blank>'
 closeKey = '</a>'
 pos = int(input())
-#get_coll_of_hrefs(openKey, midKey, closeKey, html)
-#print(get_first_href(openKey, midKey, closeKey, html, pos))
-#print(html)
-
-
-"""
-<a class="links" href="https://pcoding.ru/pdf/AgroRobot.pdf" 
-    target=_blank>
-        AgroRobot.pdf
-</a>
-"""
